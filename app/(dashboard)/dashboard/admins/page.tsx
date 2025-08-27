@@ -1,7 +1,7 @@
 const Page =()=>{
     return (
         <div>
-            <h1>admins</h1>
+            <h1 className="dark:text-white">admins</h1>
         </div>
     )
 }

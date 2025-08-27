@@ -33,7 +33,7 @@ export default function ThemeToggle() {
     <select
       value={theme}
       onChange={(e) => applyTheme(e.target.value as 'light' | 'dark' | 'system')}
-      className="bg-gray-100 dark:bg-gray-700 border dark:border-gray-600 text-sm rounded px-2 py-1 focus:outline-none"
+      className="bg-gray-100 dark:text-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 text-sm rounded px-2 py-1 focus:outline-none"
     >
       <option value="light">☀ Light</option>
       <option value="dark">🌙 Dark</option>

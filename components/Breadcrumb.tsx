@@ -11,7 +11,7 @@ export default function Breadcrumb() {
     <nav className="text-sm text-gray-600 dark:text-gray-300 p-2">
       <ol className="flex items-center space-x-2">
         <li>
-          <Link href="/" className="hover:underline">Dashboard</Link>
+          <Link href="/dashboard" className="hover:underline">Main</Link>
         </li>
         {segments.map((seg, index) => {
           const href = '/' + segments.slice(0, index + 1).join('/');
